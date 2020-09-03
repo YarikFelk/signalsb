@@ -1,47 +1,52 @@
-<section class="main__our-works">
-    <div id="particles-js" class="particles">
+<section class="main__partners">
+    <div id="particles-js__partners" class="particles main__partners_particles">
 
     </div>
 
     <div class="container">
-        <div class="main__our-works__head head">
+        <div class="main__partners_head head">
             <h2>
-                Наши работы
+                Наши заказчики
             </h2>
             <div class="head__line"></div>
         </div>
 
 
 
-        <div class="main__our-works__slider ">
-            <div class="slickSlider">
-                <div class="slick__item">
-                    <img class="slick__item_img" src="templates/assets/img/test.svg"/>
-
-                    <div class="slick__item_content">
-                        <div class="slick__item_content_img">
-                            <img src="templates/assets/img/signal.svg">
-                        </div>
+        <div class="main__partners_slider">
+            <div class="partnersSlider">
+                <div class="slick-item">
+                    <div>
+                        <img class="" src="templates/assets/img/paa.png"/>
+                    </div>
 
 
-                        <div class="slick__item_text">
-                            <h4>Работа 1</h4>
+                </div>
+                <div class="slick-item">
 
-                            <p>На этом месте краткое описание отрасли
-                                деятельности в пару строк текст</p>
-                        </div>
+                  <div>
+                      <img src="templates/assets/img/owox.png"/>
+                  </div>
+                </div>
+                <div class="slick-item">
+                    <div>
+                        <img src="templates/assets/img/bobruisk.png"/>
                     </div>
                 </div>
-                <div class="slick__item">
-                    <img src="templates/assets/img/test.svg"/>
-
+                <div class="slick-item">
+                    <div>
+                        <img src="templates/assets/img/panter.png"/>
+                    </div>
 
                 </div>
-                <div class="slick__item">
-                    <img src="templates/assets/img/test.svg"/>
-                </div>
-                <div class="slick__item">
-                    <img src="templates/assets/img/test.svg"/>
+                <div class="slick-item">
+                    <div>
+                        <img src="templates/assets/img/ucraft.png"/>
+                    </div>
+                </div>  <div class="slick-item">
+                    <div>
+                        <img src="templates/assets/img/ucraft.png"/>
+                    </div>
                 </div>
             </div>
         </div>

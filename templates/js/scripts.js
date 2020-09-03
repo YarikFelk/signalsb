@@ -9,8 +9,18 @@ $(window).load(function() {
         arrows: true,
         dots: true,
         dotsClass: 	'slick-dots',
-        nextArrow: '<button class="slick__arrows nextArrow"></button>',
+        nextArrow: '<button class="slick__arrows nextArrow "></button>',
         prevArrow: '<button class="slick__arrows prevArrow"></button>'
+    });
+
+    $('.partnersSlider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        arrows: true,
+        dots: true,
+        dotsClass: 	'slick-dots',
+        nextArrow: '<button class="slick__arrows nextArrow slick__arrows_partners"></button>',
+        prevArrow: '<button class="slick__arrows prevArrow slick__arrows_partners"></button>'
     });
 
 
@@ -18,6 +28,12 @@ $(window).load(function() {
     particlesJS.load('particles-js', 'templates/js/particles.json', function() {
         console.log('callback - particles.js config loaded');
     })
+
+    particlesJS.load('particles-js__partners', 'templates/js/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    })
+
+
     const coords = [ [59.193102, 39.821221], [59.920464, 30.352827], [58.520723, 31.261848] ]
     ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });
 

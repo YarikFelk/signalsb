@@ -44,10 +44,10 @@ $nav = [
                 </a>
 
                 <div class="header__top-row_right-block">
-                    <div class="header_contacts">
+                    <div class="header_contacts middle">
                         <a class="header_contacts_phone" href="!#">+7 (495) <b>677-17-79</b> </a>
-                        <div class="header__number_dropdown">
-                            <a href="!#">+7 (495) <b>677-17-79</b> </a>
+                        <div class="header__number_dropdown ">
+                            <a  href="!#">+7 (495) <b>677-17-79</b> </a>
                         </div>
                         <span class="header_contacts_address">
                             г. Москва, Варшавское Варшавское ш, д.68 к.3
