@@ -1,0 +1,88 @@
+.header__top-row
+  min-height: 144px
+  @include flexRow
+  justify-content: space-between
+
+  &_right-block
+    @include flexRow
+
+  &_button
+    width: 191px
+    height: 50px
+    margin-left: 30px
+
+.logo_block
+  width: 240px
+  height: 80px
+  position: relative
+
+  & img
+    position: absolute
+    top: 0
+    left: -23px
+    right: 0
+    bottom: 0
+    height: 100%
+
+
+
+.header_contacts
+  @include flexColumn
+  align-items: flex-end
+  line-height: 32px
+
+  &_phone
+    background: url("../assets/img/header__arrow.svg") no-repeat center right
+    padding-right: 20px
+
+  & a
+    color: $darkColor
+    font-size: 22px
+
+    & b
+      font-weight: bold
+
+
+
+.header__number_dropdown
+  display: none
+
+.header__bottom
+  background-color: $mainColor
+  width: 100vw
+
+  &-row
+    @include flexRow
+    justify-content: space-between
+
+.header__nav
+  @include flexRow
+  height: 100%
+  margin: 16px 0
+  justify-content: space-between
+  padding-left: 0
+
+  & li a
+    margin-right: 65px
+    color: $whiteColor
+
+.header__search
+  position: relative
+
+.header__search_input
+  width: 359px
+  height: 42px
+  border: none
+  padding-left: 20px
+
+  &::placeholder
+    color: $darkColor
+
+.header__search_button
+  background: url("../assets/img/search.svg") no-repeat center
+  position: absolute
+  width: 20px
+  height: 20px
+  right: 12px
+  top: 12px
+  border: none
