@@ -1,3 +1,7 @@
+.main__about_map
+  width: 50%
+  height: 400px
+
 .main__about
   margin-top: 84px
   margin-bottom: 85px
@@ -7,6 +11,7 @@
     display: flex
     flex-direction: row
     align-items: center
+    justify-content: space-between
 
     &_text
       width: 44%
@@ -23,3 +28,20 @@
 
 .main__about_head__line
   background: #000
+
+
+@media screen and (max-width: 900px)
+  .main__about_content
+    flex-direction: column
+
+  .main__about_content_text
+    width: 100%
+    @include flexColumn
+    margin-bottom: 50px
+
+  .main__about_map
+    width: 100%
+
+
+
+

@@ -15,35 +15,35 @@
 
         <div class="main__partners_slider">
             <div class="partnersSlider">
-                <div class="slick-item">
+                <div class="slick-item main__partners_slick-item">
                     <div>
                         <img class="" src="templates/assets/img/paa.png"/>
                     </div>
 
 
                 </div>
-                <div class="slick-item">
+                <div class="slick-item main__partners_slick-item">
 
                   <div>
                       <img src="templates/assets/img/owox.png"/>
                   </div>
                 </div>
-                <div class="slick-item">
+                <div class="slick-item main__partners_slick-item">
                     <div>
                         <img src="templates/assets/img/bobruisk.png"/>
                     </div>
                 </div>
-                <div class="slick-item">
+                <div class="slick-item main__partners_slick-item">
                     <div>
                         <img src="templates/assets/img/panter.png"/>
                     </div>
 
                 </div>
-                <div class="slick-item">
+                <div class="slick-item main__partners_slick-item">
                     <div>
                         <img src="templates/assets/img/ucraft.png"/>
                     </div>
-                </div>  <div class="slick-item">
+                </div>  <div class="slick-item main__partners_slick-item">
                     <div>
                         <img src="templates/assets/img/ucraft.png"/>
                     </div>

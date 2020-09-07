@@ -20,7 +20,7 @@
                 <button class="button main__about_button ">Подробнее о нас </button>
             </div>
 
-                <div style="width: 50%; height: 400px" id="map"></div>
+                <div class="main__about_map" id="map"></div>
         </div>
     </div>
 </section>

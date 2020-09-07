@@ -6,21 +6,53 @@ $(window).load(function() {
     $('.slickSlider').slick({
         slidesToShow: 2,
         slidesToScroll: 2,
+        infinite: true,
         arrows: true,
         dots: true,
         dotsClass: 	'slick-dots',
         nextArrow: '<button class="slick__arrows nextArrow "></button>',
-        prevArrow: '<button class="slick__arrows prevArrow"></button>'
+        prevArrow: '<button class="slick__arrows prevArrow"></button>',
+        responsive: [{
+            breakpoint: 1040,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+            }
+        }]
     });
 
     $('.partnersSlider').slick({
         slidesToShow: 5,
         slidesToScroll: 5,
+        infinite: true,
         arrows: true,
         dots: true,
         dotsClass: 	'slick-dots',
         nextArrow: '<button class="slick__arrows nextArrow slick__arrows_partners"></button>',
-        prevArrow: '<button class="slick__arrows prevArrow slick__arrows_partners"></button>'
+        prevArrow: '<button class="slick__arrows prevArrow slick__arrows_partners"></button>',
+        responsive: [{
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    arrows: false,
+                }
+            }]
     });
 
 
@@ -33,11 +65,39 @@ $(window).load(function() {
         console.log('callback - particles.js config loaded');
     })
 
+    $('.logo__anime').css('left', '100%')
+
+    $('#hamburger').on('click', navStatus);
+    console.log('ffff')
+    $('.js-search-button').on('click', function () {
+        $("body").toggleClass('search-active')
+    })
+
+    setEqualHeight($('.main__partners_slick-item div'))
 
     const coords = [ [59.193102, 39.821221], [59.920464, 30.352827], [58.520723, 31.261848] ]
     ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });
 
 });
+
+
+
+function navStatus() {
+    if (document.body.classList.contains('hamburger-active')) {
+        navClose();
+    }
+    else {
+        navOpen();
+    }
+}
+
+function navClose() {
+    document.body.classList.remove('hamburger-active');
+}
+
+function navOpen() {
+    document.body.classList.add('hamburger-active');
+}
 
 
 function init(coords, primaryColor, SecondColor) {
@@ -104,4 +164,18 @@ function init(coords, primaryColor, SecondColor) {
 
             });
         });
+}
+
+function setEqualHeight(columns) {
+    var tallestcolumn = 0;
+    columns.each(
+        function () {
+            currentHeight = $(this).height();
+            if (currentHeight > tallestcolumn) {
+                tallestcolumn = currentHeight;
+            }
+        }
+    );
+    columns.height(tallestcolumn);
+    console.log(tallestcolumn)
 }

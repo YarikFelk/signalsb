@@ -31,10 +31,10 @@
 
       <ul class="footer__contacts">
           <li class="middle">
-              <a  href="tel:+74956771779"><span class="not-bold">+7 (495)</span> 677-17-79</a>
+              <a  href="tel:+74956771779"><span class="not-bold ">+7 (495)</span> 677-17-79</a>
           </li>
           <li>
-              г. Москва, Варшавское Варшавское ш, д.68 к.3
+              г. Санкт-Петербург, Варшавское ш, д.68 к.3
           </li>
           <li>
               mail@mail.ru
@@ -45,14 +45,14 @@
     <article class="copyright__background">
         <div class="container copyright">
             <p>© 2005 – 2020 - Все права защищены</p>
-            <p><a>
+            <p><a href="#!">
                     Согласие на обработку персональных данных
                 </a>
 
             </p>
             <p class="cookie">
                 <span>Этот сайт использует cookies. Вы можете изменить настройки cookies в своём браузере.</span>
-                <a >Узнать больше</a>
+                <a href="#!">Узнать больше</a>
             </p>
         </div>
 
