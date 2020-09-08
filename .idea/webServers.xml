@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="bc2d1310-2297-4908-bc8c-da82b5f8c5c8" name="test" url="http://shared-28.smartape.ru">
+      <webServer id="bc2d1310-2297-4908-bc8c-da82b5f8c5c8" name="test" url="http://test2.alm.su/">
         <fileTransfer host="shared-28.smartape.ru" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

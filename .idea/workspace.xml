@@ -2,29 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f80120-57c3-4123-94be-f23650ddb04c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/assets/img/radioLines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-BlackIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-BoldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Extrabld.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-ExtrabldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-LightIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-RegularIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-SemiboldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNova-ThinIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-BlackIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-BoldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Extrabld.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-ExtrabldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-LightIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-RegularIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-SemiboldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaCond-ThinIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-BlackIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-BoldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Extrabld.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-ExtrabldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-LightIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-RegularIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-SemiboldIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaExCn-ThinIt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/fonts/ProximaNovaT-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/bobruisk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/cabel-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/ethernet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/header__arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/owox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/paa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/panter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/radioLines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/signal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/test.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/ucraft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/assets/img/wifi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/about/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/about/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/about/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/about/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/main/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/main/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/main/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/main/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/main/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/our_works/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/our_works/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/our_works/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/our_works/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/partners/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/partners/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/partners/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/components/partners/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/footer.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/header.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/css/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/particles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/particles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signal/templates/js/slick/slick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/assets/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/templates/assets/img/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/about/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/about/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/about/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/about/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/main/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/main/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/main/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/main/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/our_works/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/our_works/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/our_works/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/our_works/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/partners/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/partners/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/components/partners/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/partners/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,28 +148,29 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../piter-link" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../atispb" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\yarikfelk\signalsb\signal\templates\assets\img" />
+      <recent name="F:\yarikfelk\signalsb\signal" />
+      <recent name="F:\yarikfelk\signalsb\templates\components\partners" />
+      <recent name="F:\yarikfelk\signalsb\templates\components\our_works" />
+      <recent name="F:\yarikfelk\signalsb\templates\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\yarikfelk\signalsb\templates\js" />
       <recent name="F:\yarikfelk\signalsb\templates\js\jvectormap" />
       <recent name="F:\yarikfelk\signalsb" />
       <recent name="F:\yarikfelk\signalsb\templates\assets\fonts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\yarikfelk\signalsb\templates\components\partners" />
-      <recent name="F:\yarikfelk\signalsb\templates\components\our_works" />
-      <recent name="F:\yarikfelk\signalsb\templates\css" />
-      <recent name="F:\yarikfelk\signalsb\templates\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +190,11 @@
       <workItem from="1599225898088" duration="1887000" />
       <workItem from="1599465185128" duration="6971000" />
       <workItem from="1599475018226" duration="11342000" />
-      <workItem from="1599488292123" duration="4965000" />
+      <workItem from="1599488292123" duration="4987000" />
+      <workItem from="1599553156192" duration="846000" />
+      <workItem from="1599577436396" duration="219000" />
+      <workItem from="1599577664259" duration="9000" />
+      <workItem from="1599577806113" duration="5489000" />
     </task>
     <task id="LOCAL-00001" summary="make 3 blocks">
       <created>1599142091785</created>
@@ -114,23 +210,33 @@
       <option name="project" value="LOCAL" />
       <updated>1599147757425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make first draft.">
+      <created>1599494565198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599494565198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="make 3 blocks" />
     <MESSAGE value="make fornt without mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="make fornt without mobile" />
+    <MESSAGE value="make first draft." />
+    <option name="LAST_COMMIT_MESSAGE" value="make first draft." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Deployment" timestamp="1599492687041">
+    <state x="361" y="71" key="#Deployment" timestamp="1599577672235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1599492687041" />
+    <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1599577672235" />
     <state x="656" y="244" key="#File_Watchers" timestamp="1598869407606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,26 +257,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598884739220" />
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1599147755880">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1599494562837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599147755880" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599494562837" />
     <state x="436" y="190" key="EditFileWatcherDialog" timestamp="1598869381740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="190" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869381740" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599491193903">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599583263828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599491193903" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599583263828" />
     <state x="645" y="314" key="Github.ShareDialog" timestamp="1599142108301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="645" y="314" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1599142108301" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1598869806250">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1599578079533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598869806250" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599578079533" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1599142101865">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -183,6 +289,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599056234002" />
+    <state x="640" y="310" key="publish.login" timestamp="1599577824304">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="640" y="310" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1599577824304" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1599226865985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
