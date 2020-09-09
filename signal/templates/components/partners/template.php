@@ -17,7 +17,12 @@
             <div class="partnersSlider">
                 <div class="slick-item main__partners_slick-item">
                     <div class="slick_item_block">
-                        <img class="" src="templates/assets/img/paa.png"/>
+                        <img class="" src="templates/assets/img/owox.png"/>
+                        <div
+                                style="
+                                -webkit-mask-image: url('templates/assets/img/owox.svg');
+                        mask-image: url('templates/assets/img/owox.svg');"
+                                class="background"></div>
                     </div>
 
 
@@ -25,27 +30,62 @@
                 <div class="slick-item main__partners_slick-item">
 
                   <div class="slick_item_block">
-                      <img src="templates/assets/img/owox.png"/>
+                      <img src="templates/assets/img/paa.png"/>
+                      <div
+                              style="
+                                -webkit-mask-image: url('templates/assets/img/paa.svg');
+                        mask-image: url('templates/assets/img/paa.svg');"
+                              class="background">
+
+                      </div>
+
                   </div>
                 </div>
                 <div class="slick-item main__partners_slick-item">
                     <div class="slick_item_block">
                         <img src="templates/assets/img/bobruisk.png"/>
+                        <div
+                                style="
+                                -webkit-mask-image: url('templates/assets/img/grommash.svg');
+                        mask-image: url('templates/assets/img/grommash.svg');"
+                                class="background"></div>
+
                     </div>
                 </div>
                 <div class="slick-item main__partners_slick-item">
                     <div class="slick_item_block">
                         <img src="templates/assets/img/panter.png"/>
+                        <div
+                                style="
+                                -webkit-mask-image: url('templates/assets/img/hunter.svg');
+                        mask-image: url('templates/assets/img/hunter.svg');"
+                                class="background"></div>
+
                     </div>
 
                 </div>
                 <div class="slick-item main__partners_slick-item">
                     <div class="slick_item_block">
                         <img src="templates/assets/img/ucraft.png"/>
+                        <div
+                                style="
+                                -webkit-mask-image: url('templates/assets/img/ucraft.svg');
+                        mask-image: url('templates/assets/img/ucraft.svg');"
+                                class="background">
+
+                        </div>
+
                     </div>
-                </div>  <div class="slick-item main__partners_slick-item">
+                </div>
+                <div class="slick-item main__partners_slick-item">
                     <div class="slick_item_block">
                         <img src="templates/assets/img/ucraft.png"/>
+                        <div
+                                style="
+                                -webkit-mask-image: url('templates/assets/img/ucraft.svg');
+                        mask-image: url('templates/assets/img/ucraft.svg');"
+                                class="background"></div>
+
                     </div>
                 </div>
             </div>

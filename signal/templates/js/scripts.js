@@ -68,7 +68,6 @@ $(window).load(function() {
     $('.logo__anime').css('left', '165px')
 
     $('#hamburger').on('click', navStatus);
-    console.log('ffff')
     $('.js-search-button').on('click', function () {
         $("body").toggleClass('search-active')
     })
@@ -78,6 +77,23 @@ $(window).load(function() {
     const coords = [ [59.193102, 39.821221], [59.920464, 30.352827], [58.520723, 31.261848] ]
     ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });
 
+    for (let i = 1; i < 8; i++) {
+        let hoverText = $(`#hover-text${i}`)
+        $(`#placemark${i}`).click( function () {
+            hoverText.offset(function(){
+
+                let parentPos = $(`#placemark${i}`).offset();
+                return {top:parentPos.top - 100, left:parentPos.left - 50};
+            });
+            hoverText.toggleClass("show")
+        })
+    }
+
+    // console.log($('#placemark1').offset())
+    // $("#hover-text1").offset(function(i,val){
+    //     let parentPos = $('#placemark1').offset();
+    //     return {top:parentPos.top - 70, left:parentPos.left - 50};
+    // });
 });
 
 
@@ -177,5 +193,4 @@ function setEqualHeight(columns) {
         }
     );
     columns.height(tallestcolumn);
-    console.log(tallestcolumn)
 }

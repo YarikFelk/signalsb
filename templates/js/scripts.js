@@ -68,7 +68,7 @@ $(window).load(function() {
     $('.logo__anime').css('left', '100%')
 
     $('#hamburger').on('click', navStatus);
-    console.log('ffff')
+
     $('.js-search-button').on('click', function () {
         $("body").toggleClass('search-active')
     })

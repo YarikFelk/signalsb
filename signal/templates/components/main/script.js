@@ -7,7 +7,7 @@ function Line(){
     var item1 = $('.main__icon1'),
          num1X = item1.offset().left - item1.width()/2,
          num1Y = item1.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
-    console.log('fff' + item1.width()/2)
+
     var item2 = $('.main__icon2'),
          num2X = item2.offset().left - item2.width()/2,
          num2Y = item2.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
@@ -53,3 +53,5 @@ function Line(){
 $(window).on('load resize', function () {
     Line();
 });
+
+

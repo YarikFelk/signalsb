@@ -23,7 +23,38 @@
   padding-top: 85px
 
 .slick_item_block
+  position: relative
   @include flexRow
+  & img
+    opacity: 0
+    z-index: 15
+
+
+  &:hover img
+    opacity: 1
+
+  &:hover .background
+    opacity: 0
+
+.background
+  padding: 0 !important
+  position: absolute
+  width: auto !important
+  top: 0
+  left: 20px
+  right: 20px
+  bottom: 0
+  background: #fff
+  -webkit-mask-size: contain
+  mask-size: contain
+  -webkit-mask-repeat: no-repeat
+  mask-repeat: no-repeat
+  -webkit-mask-position: center
+  mask-position: center
+
+
+
+
 
 @media (max-width: 1440px)
   .main__partners_slider
