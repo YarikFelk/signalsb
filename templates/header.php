@@ -4,8 +4,8 @@
 <?php
 $nav = [
     ['Главная', '/'],
-    ['О компании', '/about'],
-    ['Направления', '/directions'],
+    ['О компании', '/about', ['Еще ссылка']],
+    ['Направления', '/directions', ['Еще ссылка', 'Еще ссылка', 'Еще ссылка']],
     ['Деятельности', '/events'],
     ['Наши работы', '/ourWorks'],
     ['Контакты', '/contacts']
@@ -72,12 +72,25 @@ $nav = [
                 </div>
 
                 <nav >
-                    <ul class="header__nav">
+                    <ul class="header__nav" >
                         <?php foreach ($nav as $li) : ?>
-                        <li>
+                        <li class="<?= ($li[2]) ?  "arrow-menu" : 'fff' ?>">
                             <a  href="<?=$li[1]?>">
                                 <?=$li[0]?>
                             </a>
+                            <?php if ($li[2]) :?>
+                            <div  class="mega-menu">
+                                <ul>
+                                    <?php foreach ($li[2] as $menu) : ?>
+                                        <li>
+                                            <a  href="!#">
+                                                <?=$menu?>
+                                            </a>
+                                        </li>
+                                    <?php endforeach;?>
+                                </ul>
+                            </div>
+                            <?php endif; ?>
                         </li>
                         <?php endforeach;?>
                     </ul>

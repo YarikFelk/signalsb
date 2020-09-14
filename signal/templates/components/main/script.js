@@ -4,31 +4,31 @@ function Line(){
         header = $('header'),
         mainhead = $('.main__head');
 
-    var item1 = $('.main__icon1'),
-         num1X = item1.offset().left - item1.width()/2,
+    var item1 = $('.item1'),
+         num1X = item1.position().left + item1.width()/2,
          num1Y = item1.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-    var item2 = $('.main__icon2'),
-         num2X = item2.offset().left - item2.width()/2,
+    var item2 = $('.item2'),
+         num2X = item2.position().left + item2.width()/2,
          num2Y = item2.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-    var item3 = $('.main__icon3'),
-         num3X = item3.offset().left - item3.width()/2,
+    var item3 = $('.item3'),
+         num3X = item3.position().left + item3.width()/2,
          num3Y = item3.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-    var item4 = $('.main__icon4'),
-         num4X = item4.offset().left - item4.width()/2,
+    var item4 = $('.item4'),
+         num4X = item4.position().left + item4.width()/2,
          num4Y = item4.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-    var item5 = $('.main__icon5'),
-         num5X = item5.offset().left - item5.width()/2,
+    var item5 = $('.item5'),
+         num5X = item5.position().left + item5.width()/2,
          num5Y = item5.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-    var item6 = $('.main__icon6'),
-         num6X = item6.offset().left - item6.width()/2,
+    var item6 = $('.item6'),
+         num6X = item6.position().left + item6.width()/2,
          num6Y = item6.offset().top+item1.height()/2- header.height() - mainhead.outerHeight();
 
-
+    console.log(num1X)
     var svg = $('#svg-line');
 
     var line12 = svg.find('.line-1-2'),

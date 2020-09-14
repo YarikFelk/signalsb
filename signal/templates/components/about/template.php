@@ -26,7 +26,7 @@
                 <button class="button main__about_button ">Подробнее о нас </button>
             </div>
 
-            <div class="map_region" style="width: 100%; position: relative; z-index: 200">
+            <div class="map_region" style="width: 100%; position: relative; z-index: 50">
                 <object id="object" type="image/svg+xml" data="templates/assets/img/tt.svg" >
 
                 </object>
@@ -62,7 +62,3 @@
         </div>
     </div>
 </section>
-
-<script>
-
-</script>

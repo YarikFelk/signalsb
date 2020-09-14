@@ -56,6 +56,7 @@ $(window).load(function() {
     });
 
 
+
     // particlesJS.load(@dom-id, @path-json, @callback (optional));
     particlesJS.load('particles-js', 'templates/js/particles.json', function() {
         console.log('callback - particles.js config loaded');
@@ -64,19 +65,48 @@ $(window).load(function() {
     particlesJS.load('particles-js__partners', 'templates/js/particles.json', function() {
         console.log('callback - particles.js config loaded');
     })
+    // end particles
 
-    $('.logo__anime').css('left', '165px')
+    // animation's logo
+    $('.logo__anime').css('left', '68%')
+    $('.logo_block').addClass('logo__anime-line')
 
     $('#hamburger').on('click', navStatus);
+
     $('.js-search-button').on('click', function () {
         $("body").toggleClass('search-active')
     })
+    // animation's logo end
 
     setEqualHeight($('.main__partners_slick-item div'))
 
-    const coords = [ [59.193102, 39.821221], [59.920464, 30.352827], [58.520723, 31.261848] ]
-    ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });
 
+    // submenu
+    if (screen.width >= '768') {
+        $('.header__nav li').on('mouseenter', function (e) {
+            e.preventDefault()
+            let siblings =  $(this).children('.mega-menu')
+            if  ( siblings) {
+                siblings.slideDown()
+            }
+        })
+
+        $('.header__nav li').on('mouseleave', function (e) {
+            e.preventDefault()
+            let siblings =  $(this).children('.mega-menu')
+            siblings.slideUp()
+        })
+
+        $('.mega-menu').on('mouseenter', function () {
+            $(this).slideDown()
+        });
+    }
+    // submenu end
+
+
+    // ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });
+
+    // anime maps
     for (let i = 1; i < 8; i++) {
         let hoverText = $(`#hover-text${i}`)
         $(`#placemark${i}`).click( function () {
@@ -88,12 +118,21 @@ $(window).load(function() {
             hoverText.toggleClass("show")
         })
     }
+    // anime maps end
 
-    // console.log($('#placemark1').offset())
-    // $("#hover-text1").offset(function(i,val){
-    //     let parentPos = $('#placemark1').offset();
-    //     return {top:parentPos.top - 70, left:parentPos.left - 50};
-    // });
+    //scroll header fix
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 170) {
+            $('.header__fixed').slideDown( 200)
+
+        }
+
+        if ($(window).scrollTop() < 170) {
+            $('.header__fixed').slideUp( 200)
+        }
+
+
+    } )
 });
 
 
@@ -109,10 +148,12 @@ function navStatus() {
 
 function navClose() {
     document.body.classList.remove('hamburger-active');
+    $('.header__nav').slideUp()
 }
 
 function navOpen() {
     document.body.classList.add('hamburger-active');
+    $('.header__nav').slideDown()
 }
 
 

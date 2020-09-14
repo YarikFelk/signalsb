@@ -102,6 +102,17 @@ h2 {
   height: 80px;
   position: relative;
 }
+.logo_block:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 64%;
+  width: 3%;
+  height: 35%;
+  background: #fff;
+  z-index: 10;
+  transition-delay: 5s;
+}
 .logo_block img {
   position: absolute;
   top: 0;
@@ -111,15 +122,19 @@ h2 {
   height: 100%;
 }
 
+.logo__anime-line:before {
+  width: 0;
+}
+
 .logo__anime {
   position: absolute;
   top: 0;
-  left: 75px;
-  right: 80px;
-  height: 55px;
+  left: 29%;
+  right: 32%;
+  height: 65%;
   background: #fff;
   z-index: 10;
-  transition: all 10s steps(7, end);
+  transition: left 5s steps(7, end);
 }
 
 .header_contacts {
@@ -162,7 +177,6 @@ h2 {
   flex-direction: row;
   align-items: center;
   height: 100%;
-  margin: 16px 0;
   justify-content: space-between;
   padding-left: 0;
 }
@@ -191,6 +205,39 @@ h2 {
 
 .header__search_button {
   display: none;
+}
+
+.header__nav li {
+  position: relative;
+  padding: 16px 0;
+}
+
+.header__nav .arrow-menu {
+  background: url("../assets/img/arrow-menu.svg") no-repeat center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mega-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -20px;
+  padding: 0 20px 20px;
+  background: #7C0905;
+  z-index: 10;
+  width: 100%;
+}
+.mega-menu li {
+  margin-bottom: 15px;
+  padding: 0;
+}
+.mega-menu li a {
+  margin-right: 0;
 }
 
 .header__search {
@@ -282,6 +329,37 @@ h2 {
   border-radius: 3px;
 }
 
+.header__fixed {
+  background: #7C0905;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+  display: none;
+}
+.header__fixed .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.header__fixed .header_contacts_phone {
+  color: #fff;
+  background-image: url("../assets/img/arrow-menu.svg");
+}
+.header__fixed .header_contacts_phone:hover {
+  color: #222;
+  background-image: url("../assets/img/header__arrow.svg");
+}
+
+.feedback {
+  margin: 0 20px;
+}
+.feedback:hover {
+  fill: #222;
+}
+
 @media screen and (max-width: 1320px) {
   .header__search_input {
     width: 259px;
@@ -300,6 +378,10 @@ h2 {
     display: none;
   }
 
+  .search-active .header__search {
+    top: 72px;
+  }
+
   .header__search_button {
     display: block;
     position: relative;
@@ -308,6 +390,9 @@ h2 {
     height: 20px;
     border: none;
     background: none;
+  }
+  .header__search_button:focus {
+    outline: none;
   }
   .header__search_button svg {
     fill: #fff;
@@ -319,8 +404,16 @@ h2 {
     width: 160px;
     height: 70px;
   }
+
+  .header__fixed .container {
+    padding: 20px;
+  }
 }
 @media screen and (max-width: 768px) {
+  .header__fixed .header__top-row_button {
+    display: block;
+  }
+
   .header__bottom {
     padding: 10px 0;
   }
@@ -329,37 +422,48 @@ h2 {
     display: block;
   }
 
-  .hamburger-active .header__nav {
-    opacity: 1;
-    visibility: visible;
-  }
-
   .header__nav {
-    visibility: hidden;
+    display: none;
     position: absolute;
-    opacity: 0;
-    top: 130px;
-    right: -5px;
-    width: calc(100vw - 40px);
+    top: 34px;
+    left: 0;
     height: auto;
     background: #7C0905;
     flex-direction: column;
     z-index: 100;
     align-items: flex-start;
+    padding: 0 20px;
     transition: opacity 0.5s;
   }
   .header__nav li {
-    margin: 10px 20px;
+    padding: 0;
+    margin: 10px 0;
   }
-  .header__nav li a {
-    font-size: 1.5rem;
+
+  .header__nav .arrow-menu {
+    display: none;
   }
 
   .header__top-row_button {
     display: none;
   }
+
+  .mega-menu {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+  .mega-menu li {
+    margin: 5px 0 5px 20px;
+  }
 }
 @media screen and (max-width: 568px) {
+  .search-active .header__search {
+    top: 61px;
+  }
+
   .header__top-row {
     flex-direction: column;
     padding: 10px 0;
@@ -372,6 +476,10 @@ h2 {
   .header_contacts {
     align-items: flex-start;
     line-height: 22px;
+  }
+  .header_contacts_address {
+    width: 100%;
+    font-size: 0.7rem;
   }
 
   .header__bottom {
@@ -392,7 +500,10 @@ h2 {
   }
 
   .header__nav {
-    top: 5px;
+    top: 20px;
+    width: 100vw;
+    right: -25px;
+    left: auto;
   }
 
   .hamburger-active .header__bottom {
