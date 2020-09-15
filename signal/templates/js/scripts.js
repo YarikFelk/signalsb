@@ -45,14 +45,23 @@ $(window).load(function() {
                 slidesToScroll: 4,
             }
         },
-            {
-                breakpoint: 800,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    arrows: false,
-                }
-            }]
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                arrows: false,
+            }
+        }, {
+            breakpoint: 567,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: false,
+            }
+        },
+
+            ]
     });
 
 
@@ -102,6 +111,14 @@ $(window).load(function() {
         });
     }
     // submenu end
+    if (screen.width < '768') {
+        $('.header_contacts_phone').on('click', function (e) {
+            e.preventDefault()
+            $(this).siblings('header__number_dropdown').slideToggle()
+        })
+    }
+
+
 
 
     // ymaps.ready(function () { init(coords,'#7C0905', '#E4E4E4') });

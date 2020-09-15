@@ -38,9 +38,13 @@ $nav = [
             <div class="container">
                 <div class="header__top-row_right-block">
                     <div class="header_contacts middle">
-                        <a class="header_contacts_phone" href="!#">+7 (495) <b>677-17-79</b> </a>
-                        <div class="header__number_dropdown ">
-                            <a  href="!#">+7 (495) <b>677-17-79</b> </a>
+                        <div class="header_contacts_phone-block">
+                            <a class="header_contacts_phone" href="tel:84956771779">
+                                +7 (495) <b>677-17-79</b>
+                            </a>
+                            <div class="header__number_dropdown fixed-dropdown-phone">
+                                <a  href="tel:84956771779">+7 (495) <b>677-17-79</b> </a>
+                            </div>
                         </div>
                     </div>
 
@@ -71,10 +75,17 @@ $nav = [
 
                 <div class="header__top-row_right-block">
                     <div class="header_contacts middle">
-                        <a class="header_contacts_phone" href="!#">+7 (495) <b>677-17-79</b> </a>
-                        <div class="header__number_dropdown ">
-                            <a  href="!#">+7 (495) <b>677-17-79</b> </a>
+                        <div class="header_contacts_phone-block">
+                            <a class="header_contacts_phone" href="tel:84956771779">
+                                +7 (495) <b>677-17-79</b>
+                            </a>
+                            <div class="header__number_dropdown ">
+                                <a  href="tel:84956771779">+7 (495) <b>677-17-79</b> </a>
+                            </div>
                         </div>
+
+
+
                         <span class="header_contacts_address">
                             г. Санкт-Петербург, Варшавское ш, д.68 к.3
                         </span>
