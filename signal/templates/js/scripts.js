@@ -35,7 +35,7 @@ $(window).load(function() {
         infinite: true,
         arrows: true,
         dots: true,
-        dotsClass: 	'slick-dots',
+        dotsClass: 	'slick-dots partners-dots',
         nextArrow: '<button class="slick__arrows nextArrow slick__arrows_partners"></button>',
         prevArrow: '<button class="slick__arrows prevArrow slick__arrows_partners"></button>',
         responsive: [{
@@ -81,6 +81,7 @@ $(window).load(function() {
     $('.logo_block').addClass('logo__anime-line')
 
     $('#hamburger').on('click', navStatus);
+    $('#hamburger-fixed').on('click', navStatus);
 
     $('.js-search-button').on('click', function () {
         $("body").toggleClass('search-active')
@@ -91,30 +92,46 @@ $(window).load(function() {
 
 
     // submenu
-    if (screen.width >= '768') {
+    if (screen.width >= '1300') {
         $('.header__nav li').on('mouseenter', function (e) {
             e.preventDefault()
             let siblings =  $(this).children('.mega-menu')
             if  ( siblings) {
-                siblings.slideDown()
+                siblings.slideDown(200)
             }
         })
 
         $('.header__nav li').on('mouseleave', function (e) {
             e.preventDefault()
             let siblings =  $(this).children('.mega-menu')
-            siblings.slideUp()
+            siblings.slideUp(200)
         })
 
         $('.mega-menu').on('mouseenter', function () {
-            $(this).slideDown()
+            $(this).slideDown(200)
         });
+    }    // submenu
+    if (screen.width < '1300') {
+        $('.header__nav .arrow-menu').on('click', function (e) {
+            console.log(e.target)
+            if (e.target === this) {
+                e.preventDefault()
+                $(this).toggleClass('active')
+                let siblings =  $(this).siblings('.mega-menu')
+                if  ( siblings) {
+                    siblings.slideToggle(200)
+                }
+            }
+        })
     }
+
     // submenu end
-    if (screen.width < '768') {
-        $('.header_contacts_phone').on('click', function (e) {
-            e.preventDefault()
-            $(this).siblings('header__number_dropdown').slideToggle()
+    if (screen.width < '1200') {
+        $('.header_contacts_phone-block').on('click', function (e) {
+            if (e.target === this) {
+                console.log($(this).children('.header__number_dropdown'))
+                $(this).children('.header__number_dropdown').slideToggle()
+            }
         })
     }
 
@@ -147,8 +164,6 @@ $(window).load(function() {
         if ($(window).scrollTop() < 170) {
             $('.header__fixed').slideUp( 200)
         }
-
-
     } )
 });
 
@@ -156,23 +171,16 @@ $(window).load(function() {
 
 function navStatus() {
     if (document.body.classList.contains('hamburger-active')) {
-        navClose();
+        console.log($(this).siblings('.header__nav'));
+        document.body.classList.remove('hamburger-active');
+        $(this).siblings('nav').children().slideUp()
     }
     else {
-        navOpen();
+        console.log($(this).siblings('nav').children());
+        document.body.classList.add('hamburger-active');
+        $(this).siblings('nav').children().slideDown()
     }
 }
-
-function navClose() {
-    document.body.classList.remove('hamburger-active');
-    $('.header__nav').slideUp()
-}
-
-function navOpen() {
-    document.body.classList.add('hamburger-active');
-    $('.header__nav').slideDown()
-}
-
 
 function init(coords, primaryColor, SecondColor) {
     var myMap = new ymaps.Map('map', {

@@ -16,13 +16,23 @@
     padding-top: 60px
     z-index: 5
 
+.slick__item_content
+  background: $mainColor
+  transition: all 0.2s ease-in-out
+
+  &:hover
+    background: #fff
+
+    & .slick__item_text
+      color: $mainColor
+
+    & .slick__item_content_img svg
+      fill: $mainColor
+
 .slick__item
   padding: 0 15px
   position: relative
-  opacity: 0.5
-  transition: opacity 0.3s
-  &:hover
-    opacity: 1
+  opacity: 1
 
 
   &_img
@@ -60,9 +70,10 @@
       border: 15px solid #690704
       margin-right: 40px
 
-    & img
+    & svg
       height: 100%
       width: auto
+      fill: #fff
 
 
 .slickSlider

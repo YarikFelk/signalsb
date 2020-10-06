@@ -19,12 +19,12 @@
     content: ""
     position: absolute
     bottom: 0
-    left: 64%
-    width: 3%
+    left: 63%
+    width: 4%
     height: 35%
     background: #fff
     z-index: 10
-    transition-delay: 5s
+    transition-delay: 3s
 
   & img
     position: absolute
@@ -45,7 +45,7 @@
   height: 65%
   background: #fff
   z-index: 10
-  transition: left 5s steps(7, end)
+  transition: left 3s steps(7, end)
 
 .header__number_dropdown
   display: none
@@ -58,8 +58,13 @@
   background: #ffffff
   border-radius: 3px
 
-.header_contacts_phone-block:hover .header__number_dropdown
-  display: block
+.header_contacts_phone-block
+  background: url("../assets/img/header__arrow.svg") no-repeat center right
+
+
+@media (min-width: 1200px)
+  .header_contacts_phone-block:hover .header__number_dropdown
+    display: block
 
 
 
@@ -71,8 +76,7 @@
   position: relative
 
   &_phone
-    background: url("../assets/img/header__arrow.svg") no-repeat center right
-    padding-right: 20px
+    margin-right: 20px
     display: block
 
   & a
@@ -145,7 +149,7 @@
   position: absolute
   top: 50px
   left: -20px
-  padding: 0 20px 20px
+  padding: 0 20px
   background: $mainColor
   z-index: 10
   width: 100%
@@ -251,20 +255,73 @@
     @include flexRow
     justify-content: space-between
     padding: 5px
+    position: relative
 
   & .header_contacts_phone
     color: #fff
-    background-image: url("../assets/img/arrow-menu.svg")
 
     &:hover
       color: #222
+
+
+
+  & .header_contacts_phone-block
+    background-image: url("../assets/img/arrow-menu.svg")
+
+    &:hover
       background-image: url("../assets/img/header__arrow.svg")
+
+
 
 .feedback
   margin: 0 20px
 
   &:hover
     fill: #222
+
+.header__fixed .hamburger-icon-container
+  display: block
+
+.header__fixed .header__nav
+  position: absolute
+  top: 45px
+  left: -20px
+  @include flexColumn
+  background: $mainColor
+  align-items: self-start
+  justify-content: flex-start
+  padding-left: 20px
+  height: auto
+  display: none
+
+  & li
+    width: 100%
+    padding-right: 10px
+
+  & .mega-menu
+    left: 100%
+    top: 0
+    min-width: 200px
+
+    & li
+      margin: 0
+      padding: 16px 0
+
+.header__fixed  .arrow-menu
+  transform: rotate(270deg)
+  top: calc( 50% - 5px)
+  transition: transform 0.3s
+  right: 10px
+
+
+
+.header__fixed .arrow-menu.active
+  transform: initial !important
+
+
+@media (min-width: 1300px)
+  .header__fixed li:hover .arrow-menu
+    transform: initial
 
 @media screen and (max-width: 1320px)
   .header__search_input
@@ -277,6 +334,9 @@
     width: 200px
 
 @media screen and (max-width: 1040px)
+  .header__fixed .header__nav
+    left: 0
+
   .header__search
     display: none
 
@@ -305,7 +365,7 @@
     height: 70px
 
   .header__fixed .container
-    padding: 20px
+    padding: 10px
 
 @media screen and (max-width: 768px)
   .header__fixed .header__top-row_button
@@ -321,37 +381,66 @@
   //  opacity: 1
   //  visibility: visible
 
+
+
   .header__nav
-    display: none
-    position: absolute
-    top: 34px
+    position: fixed
+    top: 50px
     left: 0
-    height: auto
-    background: #7C0905
+    display: flex
     flex-direction: column
+    background: #7C0905
+    align-items: self-start
+    justify-content: flex-start
+    padding-left: 20px
+    height: auto
     z-index: 100
-    align-items: flex-start
-    padding: 0 20px
-    transition: opacity 0.5s
 
     & li
-      padding: 0
-      margin: 10px 0
-
+      width: 100%
+  //  position: absolute
+  //  top: 34px
+  //  left: 0
+  //  height: auto
+  //  background: #7C0905
+  //  flex-direction: column
+  //  z-index: 100
+  //  align-items: flex-start
+  //  padding: 0 20px
+  //  transition: opacity 0.5s
 
   .header__nav .arrow-menu
+    transform: rotate(270deg)
+    top: calc( 50% - 5px)
+    transition: transform 0.3s
+    right: 10px
+
+  .header__nav-top
     display: none
+    top: 30px
+    position: absolute
+
+  .header__nav .mega-menu
+    left: 100%
+    top: 0
+    min-width: 200px
+
+  .header__nav .mega-menu li
+    margin: 0
+    padding: 16px 0
+
+  .arrow-menu.active
+    transform: initial !important
+
+
+
+  //.header__nav .arrow-menu
+  //  display: none
 
 
   .header__top-row_button
     display: none
 
-  .mega-menu
-    position: relative
-    display: block
-    top: 0
-    left: 0
-    padding: 0
 
     & li
       margin: 5px  0 5px 20px
@@ -399,12 +488,51 @@
     right: -25px
     left: auto
 
+
+
   .hamburger-active .header__bottom
     top: 55px
 
   .header__number_dropdown
     right: auto
     left: 0
+
+  .header__fixed .arrow-menu
+    transform: rotate(0)
+
+    &.active
+      transform: rotate(180deg) !important
+
+  .header__nav .arrow-menu
+    transform: rotate(0)
+
+  .arrow-menu.active
+    transform: rotate(180deg) !important
+
+
+  .header__nav
+    top: 25px
+    padding-left: 10px
+
+  .header__nav .mega-menu
+    left: -20px
+    right: -20px
+    top: 100%
+    width: auto
+    background: #fff
+
+    & li a
+      color: $mainColor
+
+  .header__fixed .header__nav .mega-menu
+    left: -20px
+    right: -20px
+    top: 100%
+    width: auto
+    background: #fff
+
+    & li a
+      color: $mainColor
 
 .fixed-dropdown-phone
   left: -5px

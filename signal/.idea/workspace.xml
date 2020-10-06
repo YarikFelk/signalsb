@@ -2,21 +2,351 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b804919-860a-4b61-8fc4-b2605755175e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/assets/img/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/assets/img/tt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/images/news_list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/en/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/en/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/en/help/.tooltips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/ru/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/ru/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/lang/ru/help/.tooltips.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/bx-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/images/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/bootstrap_v4/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/images/bx-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/black/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/black/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/blue/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/blue/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/green/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/green/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/red/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/red/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/wood/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/wood/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/yellow/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/flat/themes/yellow/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/announcement.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/general.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/news.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/notice.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/order.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/portal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/images/pr.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/official/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitrix/components/my/news.list/templates/table/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/admin/listBulder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/admin/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/admin/slam_easyform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/admin/slam_easyform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/images/cp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/images/instructions_step_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/images/instructions_step_2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/images/instructions_step_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/en/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/en/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/en/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/en/lib/settings/captcha_btn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/ru/.description.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/ru/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/ru/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lang/ru/lib/settings/captcha_btn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/js/language/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/ReCaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod/Curl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod/CurlPost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod/Socket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestMethod/SocketPost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/RequestParameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/ReCaptcha/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/recaptcha/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/button_send_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/captcha_btn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/captcha_btn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/dragdrop_order/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/dragdrop_order/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/dragdrop_order/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/dragdrop_order/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/lib/settings/dragdrop_order/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/send_ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/images/live_feed_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/images/loading-place-img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/images/live_feed_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/images/loading-place-img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/bitrix/main.file.input/drag_n_drop/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/images/live_feed_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/images/loading-place-img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/.default/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/images/live_feed_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/images/loading-place-img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/script.map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/script.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/bitrix/main.file.input/drag_n_drop/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/components/slam/easyform/templates/modal/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/lang/en/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/lang/en/install/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/lang/ru/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/lang/ru/install/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/step1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/step2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/unstep1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/unstep2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/install/version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/admin/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/install.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/install/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/lib/easyform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/lib/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/en/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/admin/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/install.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/install/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/lib/easyform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/lib/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lang/ru/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lib/easyform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lib/event.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/lib/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/modules/slam.easyform/options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/advantages/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/calculator/result_modifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/calculator/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/home_slider/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/interiors/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/qna/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local/templates/bitrix/news.list/qna/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/js/anime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/js/anime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/css/style.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Book.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/fonts/Stolzl-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-about-woman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-calculator-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-desktop-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-map-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-map-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/bg-mobile-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/city-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/city.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/header-banner-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/header-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-burger-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-city-header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-features-cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-features-silhouette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-features-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-features-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-footer-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-footer-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-footer-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-footer-phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-footer-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-minus-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-minus-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-phone-header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-plus-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-plus-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/icon-telegram-header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/iconmonstr-arrow-right-thin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/img-slider-features-desktop-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/img-slider-features-desktop-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/img-slider-features-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/img-slider-interiors-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/img-slider-interiors-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/logo-footer-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/logo-footer-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/logo-header-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/logo-header-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/slider-arrow-hover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/img/slider-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/vendor/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/vendor/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webcam/vendor/js/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/components/about/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/about/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/components/main/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/main/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/main/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/main/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/main/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/main/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/components/partners/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/components/partners/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/particles.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +384,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600084920326</updated>
       <workItem from="1600084921563" duration="412000" />
+      <workItem from="1600340359780" duration="201000" />
+      <workItem from="1600341268287" duration="779000" />
+      <workItem from="1600356052971" duration="438000" />
+      <workItem from="1601971150402" duration="958000" />
+      <workItem from="1601973654356" duration="151000" />
     </task>
     <servers />
   </component>
@@ -65,9 +400,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="487" y="0" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1600084938391" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600085308400">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601973803956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600085308400" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601973803956" />
   </component>
 </project>
